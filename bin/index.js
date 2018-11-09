@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
 const program = require("commander");
+const StartCmd = require("../lib/start.js")
 
 /*************************************************************************/
 
 program
-  .command('rm <dir>')
-  .option('-r, --recursive', 'Remove recursively')
-  .action(function (dir, cmd) {
-    console.log('remove ' + dir + (cmd.recursive ? ' recursively' : ''))
+  .command('start <url>')
+  .action(function (url, args) {
+    StartCmd.execute(url, args);
   })
 
 program.parse(process.argv)

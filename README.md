@@ -38,8 +38,8 @@ workshopper verify example-file.js
 
 1. Scaffold the nodejs CLI application - Completed
 2. Build a sample application to test out the workshopper - Completed (Test repo: https://github.com/samuelkubai/workshop-test)
-3. Build the start command - In progress
-4. Build the chapter listing functionality
+3. Build the start command - Completed
+4. Build the chapter listing functionality - In progress
 5. Build the starting of a new chapter functionality
 6. Build the running of a submission
 7. Build the verification a submission
