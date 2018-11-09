@@ -36,8 +36,8 @@ workshopper verify example-file.js
 
 ## For the 9th - 10th November hackathon
 
-1. Scaffold the nodejs CLI application - In progress
-2. Build a sample application to test out the workshopper
+1. Scaffold the nodejs CLI application - Completed
+2. Build a sample application to test out the workshopper - In progress
 3. Build the start command
 4. Build the chapter listing functionality
 5. Build the starting of a new chapter functionality
