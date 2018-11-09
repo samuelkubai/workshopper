@@ -40,6 +40,6 @@ workshopper verify example-file.js
 2. Build a sample application to test out the workshopper - Completed (Test repo: https://github.com/samuelkubai/workshop-test)
 3. Build the start command - Completed
 4. Build the chapter listing functionality - Completed
-5. Build the starting of a new chapter functionality - In progress
-6. Build the running of a submission
+5. Build the starting of a new chapter functionality - Completed
+6. Build the running of a submission - In progress
 7. Build the verification a submission
