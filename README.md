@@ -41,5 +41,5 @@ workshopper verify example-file.js
 3. Build the start command - Completed
 4. Build the chapter listing functionality - Completed
 5. Build the starting of a new chapter functionality - Completed
-6. Build the running of a submission - In progress
-7. Build the verification a submission
+6. Build the running of a submission - Completed
+7. Build the verification a submission - Completed

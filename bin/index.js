@@ -4,6 +4,7 @@ const program = require("commander");
 const StartCmd = require("../lib/start.js")
 const ChapterListCmd = require("../lib/chapter/list.js");
 const RunCmd = require("../lib/run.js");
+const VerifyCmd = require("../lib/verify.js");
 
 /*************************************************************************/
 
@@ -34,8 +35,16 @@ program
 
 program
   .command('run <file>')
-  .action(function (branch, arg) {
-    RunCmd.execute(branch, arg);
+  .action(function (file, args) {
+    RunCmd.execute(file, args);
+  });
+
+/************************************************************************/
+
+program
+  .command('verify <file>')
+  .action(function (file, args) {
+    VerifyCmd.execute(file, args);
   });
 
 program.parse(process.argv);
