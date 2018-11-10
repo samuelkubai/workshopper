@@ -16,13 +16,13 @@ The workshopper is a NPM package you just install globally on your machine.
 For npm users to install worshopper, run:
 
 ```bash
-npm install -g @andela/workshopper
+npm install -g @akitecht/workshopper
 ```
 
 For yarn users to install workshopper, run:
 
 ```bash
-yarn add --global @andela/workshopper
+yarn add --global @akitecht/workshopper
 ```
 
 ## Using workshopper

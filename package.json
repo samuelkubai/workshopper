@@ -1,12 +1,15 @@
 {
-  "name": "@andela/workshopper",
-  "version": "0.0.1",
+  "name": "@akitecht/workshopper",
+  "version": "0.5.0",
   "description": "CLI utility that aids in running interactive workshops by providing a nice user experience encapsulating your workshop's code base.",
   "bin": {
     "workshopper": "./bin/index.js"
   },
   "main": "./bin/index.js",
-  "repository": "git@github.com:samuelkubai/workshopper.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samuelkubai/workshopper.git"
+  },
   "author": "Samuel Kubai Kamau <samuel.kubai@andela.com>",
   "license": "MIT",
   "dependencies": {
@@ -17,5 +20,21 @@
     "marked": "^0.5.1",
     "marked-terminal": "^3.1.1",
     "shelljs": "^0.8.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/samuelkubai/workshopper/issues"
+  },
+  "homepage": "https://github.com/samuelkubai/workshopper#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-js",
+    "workshops",
+    "cli"
+  ]
 }
