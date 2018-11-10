@@ -67,6 +67,8 @@ workshopper verify [SUBMISSION_FILE]
 ## Example user journey
 Here is an example journey for a user using workshopper.
 
+> The user here has yarn installed but you can always use npm, refer to the installation instructions for npm installation.
+
 ```bash
 
 # Install the workshopper globally
@@ -76,10 +78,10 @@ yarn add --global workshopper
 workshopper start https://github.com/samuelkubai/react-testing-workshop
 
 # List out the various chapters for the workshop
-workshopper chapter list
+workshopper chapters
 
 # Select a specific chapter of the workshop
-workshopper chapter start hi-to-the-console
+workshopper open hi-to-the-console
 
 # Run your submission to see it's outputs
 workshopper run example-file.js
