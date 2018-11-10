@@ -1,6 +1,6 @@
 {
   "name": "@akitecht/workshopper",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "CLI utility that aids in running interactive workshops by providing a nice user experience encapsulating your workshop's code base.",
   "bin": {
     "workshopper": "./bin/index.js"
